@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Java, Spring Boot, Spring Security, Microservices, RESTful APIs, DDD, SOA, AWS, Docker, Kubernetes, Kafka, event-driven architecture, backend performance optimization, legacy modernization
+**Moderate match areas:** Angular, React, TypeScript, Terraform, CI/CD (GitLab/Jenkins), Apache Spark, Hadoop, Scala, MongoDB/Oracle/SQL Server, mentoring/tech lead
+**Weak match areas:** Non-JVM primary stacks (Go, Rust, .NET, Python-heavy roles), native mobile, ML/data-science modeling, pure frontend roles
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Senior Java backend engineering, microservices architecture, platform/legacy modernization, banking/fintech, public-sector/government systems, healthcare (US EHR)
+**Moderate:** Full-stack (Java + Angular/React), data-engineering pipelines (Spark/Kafka/Hadoop), tech lead / mentoring
+**Entry-level:** Formal solutions-architect title, engineering-management (people leadership) roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,18 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+Candidate is based in **Lima, Peru (UTC-5)** and requires **100% remote** roles.
+- Fully remote, any country: PASS
+- Remote but restricted to a country/region that excludes LATAM: FAIL (check eligibility)
+- Hybrid with mandatory office days: FAIL (deal-breaker)
+- On-site / relocation required: FAIL (deal-breaker)
+- Non-English working language: FAIL (deal-breaker)
+- Timezone: strong overlap with the Americas; partial overlap with Europe (flag EU roles requiring full CET-hours coverage)
+
+**US-role screening (read the posting's eligibility language carefully):**
+- "Must be authorized to work in the US" / "US citizens or green-card holders only" / "W-2 only" / "on-site in [US city]" → **FAIL** (candidate is Peru-based, no US authorization).
+- "Open to LATAM / Americas", "1099 contractor", "Contractor / B2B", "hire anywhere", "global/worldwide" → **PASS** (eligible - flag as a good channel).
+- Comp: expect **USD**. US remote-LATAM contractor bands for senior Java+AWS typically run well above local pay; if a range is listed, compare against USD market (~$60-130k salaried / ~$35-70/hr contractor for the region) rather than local benchmarks. Clarify contractor (1099/B2B) vs employee (EOR) - it affects taxes and benefits the candidate must self-provide.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +71,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a 100% remote, English-speaking Senior Java / backend engineering role with an international team
+- Keep working on scalable architecture design and platform/legacy modernization
+- Grow toward software architect / tech lead scope
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: designing scalable architectures, modernizing legacy platforms, high-performance backend work, mentoring, working in English with international teams
+- Tasks that drain: pure maintenance with no modernization, on-site/rigid-schedule environments, non-English work settings
+- Non-task factors: degree of autonomy over technical decisions, remote culture maturity, company values
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: currently employed (MINCETUR) - can be selective; no urgency to accept a weak fit
+- **Flexibility**: remote-only is non-negotiable; UTC-5 timezone
+- **Professional development**: wants growth toward architecture/tech-lead and exposure to modern cloud-native stacks
 
 ### 6. Salary Benchmark (Optional)
 

@@ -10,41 +10,48 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Drafted from the CV. Add concrete numbers where you can (team size, latency, throughput, timelines). -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Legacy-to-Microservices Migration at Contraloría (Architecture & Java)
+**S:** A critical legacy system at the Comptroller General of Peru was hard to scale and maintain.
+**T:** Lead the end-to-end migration to a modern microservices architecture without disrupting operations.
+**A:** Designed the target architecture in Java and Spring Boot, defined standards and integration points with the Architecture team, and delivered high-performance backend services and APIs incrementally.
+**R:** Improved system scalability and maintainability; established reusable patterns the team adopted for further modernization.
+**Use for:** "Tell me about a large migration", "How do you modernize legacy systems", "Describe leading a technical initiative"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Real-Time Data Platform at SUNAT (Kafka / Big Data)
+**S:** Peru's tax authority needed real-time data processing at national scale.
+**T:** Build data-processing modules that stay reliable for a very large user base.
+**A:** Developed real-time modules using Kafka, MongoDB, Hadoop, and Scala; built integration components with IBM tools, Docker, and Kubernetes.
+**R:** Delivered real-time processing serving 1M+ users.
+**Use for:** "Describe a high-scale system", "Event-driven / streaming experience", "Handling large data volumes"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Monolith-to-Microservices at Qualifacts (Cloud-Native, US Healthcare)
+**S:** A US healthcare (EHR) platform on a monolith had slow, risky deployments.
+**T:** Increase deployment velocity and system resilience while keeping data integrity.
+**A:** Drove migration to scalable microservices, built core services and APIs with Java, Spring Boot, and AWS, and integrated Apache Kafka for high-volume real-time streaming; collaborated with Architecture and Data Engineering on standards.
+**R:** Significantly increased deployment velocity and resilience in a regulated, data-sensitive domain.
+**Use for:** "Working in a regulated industry", "Improving delivery speed", "Cross-team collaboration"
+
+### 4. Data Migration & Automation at Teamsoft (Reliability)
+**S:** Multiple customer applications required a major data migration with high operational risk.
+**T:** Execute the migration while reducing the chance of failures.
+**A:** Led migration and integration efforts and introduced automation and process standardization.
+**R:** Reduced operational risk by 90%.
+**Use for:** "Tell me about reducing risk", "Automation you introduced", "A time you improved a process"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Why are you looking to leave your current role?"
+> Positive framing: I'm looking to work fully remotely with an international, English-speaking team on modern cloud-native systems. My current and past roles gave me strong Java/microservices and modernization experience; I want to bring that into a global product team where I can keep growing toward architecture. (No negativity about MINCETUR or any employer.)
 
 ### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+> Acknowledge honestly, then bridge: I haven't used X in production, but I've solved closely-related problems with Y (e.g., learned Kafka/Spark on the job at SUNAT/Qualifacts). Show a concrete example of ramping fast on a new stack, and genuine willingness to learn.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Growing from senior engineer into a software architect / tech-lead scope - owning architecture decisions and mentoring, ideally in a remote-first international company. Align this with the role's growth path.
 
 ### "What's your biggest weakness?"
 > [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]

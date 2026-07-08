@@ -105,12 +105,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Senior Java Backend / Microservices roles:**
+> Senior Software Engineer with 10+ years building scalable, high-performance backend systems in Java. Proven track record leading end-to-end legacy-to-microservices migrations with Spring Boot and AWS across banking, government, and healthcare. Comfortable owning architecture and integration standards and mentoring engineers in distributed, English-speaking teams.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Backend + Data / Event-Streaming roles:**
+> Senior Java engineer with deep experience in event-driven and real-time data systems - Apache Kafka, Spark, and Hadoop pipelines serving 1M+ users - combined with cloud-native microservices on AWS. Strong at optimizing backend performance and integrating complex third-party data flows in high-availability environments.
+
+**For Tech Lead / Architecture-leaning roles:**
+> Senior engineer and technical modernizer who repeatedly takes legacy platforms to modern, scalable microservice architectures. Defines application standards and integration frameworks alongside architecture teams, mentors developers, and delivers measurable results (90% operational-risk reduction, 10+ production systems) while collaborating with international, remote-first teams.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
@@ -256,3 +258,27 @@ The section order varies by role type:
 4. Professional Experience (reverse chronological)
 5. Publications & Awards
 6. References
+
+## US Resume Variant (for US / remote-US roles)
+
+**Master file:** `cv/main_us_resume.tex` (filled with the candidate's data; US-tuned).
+When tailoring for a **US-based or US-remote** posting, build `cv/main_<company>.tex` from
+`main_us_resume.tex` instead of `main_example.tex`, and follow these US conventions:
+
+- **Terminology:** it's a *resume*, not a *CV*. Heading is **"Professional Summary"**, not "Profile".
+- **Paper size:** US Letter (`\usepackage[letterpaper,...]{geometry}`), not A4.
+- **No personal data:** never include photo, date of birth, age, nationality, marital status,
+  or a full street address. City + country (or "Remote") is enough. (This is also an
+  anti-discrimination norm in the US - including it reads as unprofessional.)
+- **Work authorization / eligibility line up top:** US recruiters screen hard for this. State
+  remote eligibility explicitly, e.g. *"Open to remote (worldwide) · Available as contractor (LATAM)"*.
+  Never claim US work authorization the candidate does not have.
+- **Timezone overlap:** for a Lima (UTC-5) candidate, call out strong US-timezone overlap in the summary.
+- **Impact-first bullets:** lead with quantified outcomes ("Reduced operational risk by 90%",
+  "served 1M+ users", "increased deployment velocity"). US resumes reward metrics heavily.
+- **Drop "References available upon request":** considered outdated filler on US resumes. Omit the
+  References section entirely; employers ask for references separately.
+- **Length:** 1 page is the US default for <10 yrs; for a senior 10+ yr profile, **2 pages is acceptable** -
+  keep the same hard 2-page limit and compile-and-inspect loop.
+- **Keywords:** US ATS matching is literal - mirror the posting's exact terms (e.g. "Java 17",
+  "Spring Boot", "AWS", "microservices", "CI/CD") where truthfully applicable.

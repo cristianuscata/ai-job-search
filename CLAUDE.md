@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Cristian Uscata
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Cristian Uscata, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,79 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Cristian Uscata Garcia
+- **Location:** Lima, Peru (UTC-5) — seeking **100% remote** roles in **English-speaking** environments
+- **Phone:** (+51) 965 373 728
+- **Email:** crisuscata@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/crisuscata
+- **Languages:** Spanish (native), English (advanced / professional working proficiency)
+- **Status:** Employed (Senior Software Engineer at MINCETUR, Peru), actively seeking remote opportunities
+- **LinkedIn headline:** "Senior Software Engineer | Java · Spring Boot · Microservices · AWS · Kafka"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Systems Engineering degree (Ingeniero de Sistemas)** (2007-2011) - Universidad Nacional del Callao, Peru
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Senior Software Engineer** (Feb 2025 - Present) - **MINCETUR** (Ministerio de Comercio Exterior y Turismo, Peru)
+  - Backend development and platform work for public-sector systems using Java and Spring Boot
+- **Senior Software Engineer** (Apr 2024 - Feb 2025) - **Comptroller General of the Republic (Contraloría General)** (Peru)
+  - Led the end-to-end migration of a critical legacy system to a modern microservices architecture using Java and Spring Boot
+  - Developed high-performance backend services and APIs, collaborating with the Architecture team on standards and integrations
+- **Senior Software Engineer** (May 2023 - May 2024) - **Scotiabank** (LATAM)
+  - Designed and optimized high-performance, low-latency APIs and backend services with Java and AWS, with secure data-exchange protocols
+  - Resolved performance bottlenecks integrating complex third-party data systems; led a legacy modernization with Docker and Angular
+- **Software Engineer** (May 2021 - Apr 2023) - **Qualifacts** (USA)
+  - Drove migration from a monolith to a scalable microservices architecture, increasing deployment velocity and resilience
+  - Built core backend services and APIs with Java, Spring Boot, and AWS, integrating Apache Kafka for high-volume real-time streaming
+- **Senior Java FullStack** (Sep 2020 - May 2021) - **Zoluxiones** (Peru)
+  - Developed microservices and full-stack solutions with Java, Spring, Angular, and AWS; mentored junior developers
+- **Senior Software Engineer** (Mar 2018 - Sep 2020) - **SUNAT** (Peru)
+  - Built integration components with IBM tools, Docker, and Kubernetes
+  - Developed real-time data-processing modules with Kafka, MongoDB, Hadoop, and Scala serving 1M+ users
+- **Software Engineer** (Jan 2017 - Mar 2018) - **Teamsoft SAC** (Peru)
+  - Led major data migration and integration efforts; reduced operational risk by 90% through automation and standardization
+- **Software Developer** (Mar 2012 - Dec 2016) - **PCM** (Peru)
+  - Designed a core system automating banking processes; delivered 10+ production-ready projects
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Java, Spring Boot, Spring Security, Microservices, RESTful APIs, DDD, SOA
+- **Cloud & DevOps:** AWS (S3, EC2, DynamoDB, RDS), Docker, Kubernetes, CI/CD (GitLab, Jenkins), Terraform, Shell Scripting
+- **Event Streaming & Data:** Kafka, RabbitMQ, Event-Driven Architecture, Apache Spark, Hadoop, Scala
+- **Frontend:** Angular, React, JavaScript, TypeScript
+- **Databases:** MongoDB, Oracle, SQL Server
+- **Domain:** Public sector / government systems, Banking & Finance, Healthcare (US EHR)
+- **Methodologies:** TDD, Agile, Scrum, Mentoring
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None recorded yet.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None recorded yet.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred from CV; not a formal assessment. Review before relying on this. -->
+- **Modernizer** - Repeatedly led legacy-to-microservices migrations and platform modernization
+- **Mentor & collaborator** - Mentored junior developers; works daily with international teams
+- **Strengths:** Scalable architecture design, backend performance optimization, strong analytical and communication skills
+- **Growth areas:** [to refine - e.g., formal architecture certifications, public speaking]
+- **Thrives in:** Remote, English-speaking teams building and modernizing scalable backend systems
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Working 100% remotely in English with international teams
+- Designing scalable architectures and modernizing legacy platforms
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **US companies hiring LATAM contractors** (1099/B2B) - strongest channel given English + UTC-5 overlap; via nearshore platforms (Revelo, Turing, Tecla, Toptal) and remote-first US product companies
+- Fintech / Banking: remote-first Java shops, financial platforms
+- Tech / SaaS / Healthtech: product companies hiring senior Java backend engineers
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Not fully remote (on-site or hybrid-mandatory roles are a hard no)
+- Non-English-speaking work environment
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

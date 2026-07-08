@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Cristian Uscata Garcia
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as a master reference when tailoring role-specific CVs (cv/main_<company>.tex).
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -18,24 +17,25 @@
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
+\usepackage{needspace}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Cristian Uscata - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Cristian}{Uscata}
+\address{Lima, Peru}{}{}
+\phone[mobile]{(+51) 965 373 728}
+\email{crisuscata@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/crisuscata}{LinkedIn} $\cdot$ Remote (UTC-5)}
 
 \begin{document}
 
@@ -46,7 +46,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Senior Software Engineer with 10+ years building scalable, high-performance backend systems in Java. Proven track record leading end-to-end legacy-to-microservices migrations with Spring Boot and AWS across banking, government, and healthcare. Experienced with event-driven and real-time data platforms (Kafka, Spark), and comfortable owning architecture and integration standards while mentoring engineers in distributed, English-speaking teams.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +56,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Backend \& Core}: Java, Spring Boot, Spring Security, Microservices, RESTful APIs, DDD, SOA.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Cloud \& DevOps}: AWS (S3, EC2, DynamoDB, RDS), Docker, Kubernetes, CI/CD (GitLab, Jenkins), Terraform, Shell Scripting.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Event Streaming \& Data}: Kafka, RabbitMQ, Event-Driven Architecture, Apache Spark, Hadoop, Scala.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Frontend \& Databases}: Angular, React, JavaScript, TypeScript; MongoDB, Oracle, SQL Server.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Ways of Working}: TDD, Agile, Scrum, mentoring, defining technical standards; agentic coding with Claude Code.
 
 \end{itemize}
 
@@ -77,31 +77,74 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2025--Present}{Senior Software Engineer}{MINCETUR (Ministry of Foreign Trade \& Tourism)}{Lima, Peru}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Backend development and platform work for public-sector systems using Java and Spring Boot.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{Apr 2024--Feb 2025}{Senior Software Engineer}{Comptroller General of the Republic (Contralor\'ia General)}{Peru}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Led the end-to-end migration of a critical legacy system to a modern microservices architecture using Java and Spring Boot, enhancing scalability and maintainability.
+    \item Developed high-performance backend services and APIs, collaborating with the Architecture team to define standards and seamless integrations with data-processing layers.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2023--2024}{Senior Software Engineer}{Scotiabank}{LATAM}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Designed and optimized high-performance, low-latency APIs and backend services using Java and AWS, with secure data-exchange protocols.
+    \item Resolved performance bottlenecks integrating complex third-party data systems; led a legacy modernization using Docker and Angular.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2021--2023}{Software Engineer}{Qualifacts}{USA}{}{\vspace{1pt}
+\begin{itemize}
+    \item Drove migration from a monolithic platform to a scalable microservices architecture, increasing deployment velocity and resilience.
+    \item Built core backend services and APIs with Java, Spring Boot, and AWS, integrating Apache Kafka for high-volume real-time streaming.
+    \item Collaborated with Architecture and Data Engineering teams on standards for data integrity and reliability.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2020--2021}{Senior Java FullStack}{Zoluxiones}{Peru}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed microservices and full-stack solutions using Java, Spring, Angular, and AWS.
+    \item Defined project scopes and mentored junior developers.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2018--2020}{Senior Software Engineer}{SUNAT (National Tax Authority)}{Peru}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built integration components with IBM tools, Docker, and Kubernetes.
+    \item Developed real-time data-processing modules using Kafka, MongoDB, Hadoop, and Scala serving 1M+ users.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2017--2018}{Software Engineer}{Teamsoft SAC}{Peru}{}{\vspace{1pt}
+\begin{itemize}
+    \item Led major data migration and integration efforts across multiple customer applications.
+    \item Reduced operational risk by 90\% through automation and process standardization.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2012--2016}{Software Developer}{PCM}{Peru}{}{\vspace{1pt}
+\begin{itemize}
+    \item Designed a core system for automated banking processes, eliminating manual tasks.
+    \item Delivered 10+ production-ready projects with focus on maintainability and scalability.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,15 +157,8 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\needspace{3\baselineskip}
+\item{\cventry{2007--2011}{Systems Engineering degree (Ingeniero de Sistemas)}{Universidad Nacional del Callao}{Peru}{}{}}
 
 \end{itemize}
 
@@ -133,27 +169,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Spanish (native), English (advanced / professional working proficiency).
 \end{itemize}
 
 % ============================================================
